@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/case/case",
+    "pages/caseDetail/caseDetail",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "服务"
+    }, {
+      "pagePath": "pages/case/case",
+      "text": "案例"
+    },
+    {
+      "pagePath": "pages/contact/contact",
+      "text": "联系我们"
+    }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
