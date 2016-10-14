@@ -1,0 +1,49 @@
+<view class="body">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"  interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+    
+  <view class="navigator_type">
+      <view class="navigator_type_top">
+          <view class="navigator_type_mobile" bindtap="tapmobile">
+                <text class="{{mobileCSS}}">{{mobile}}</text>
+          </view>
+          <view class="navigator_type_pc" bindtap="tapPc">
+                <text class="{{pcCSS}}">{{pc}}</text>
+          </view>
+      </view>
+    <view class="{{navigator_type_bottom}}"></view>
+  </view>
+
+
+  <view class="main_body">
+      <view class="{{main_left}}" >
+        <block wx:for="{{mainData}}">
+          <view class="mobile" style="background-image:url('{{item.images}}')" bindtap="goToCaseDetil">
+              <view class="mobile_child">
+                    <text class="mobile_title">{{item.title}}</text>
+                    <text class="mobile_text">{{item.text}}</text>
+              </view>
+          </view>
+        </block>  
+      </view>
+      <view class="main_right" >
+        <block wx:for="{{mainData2}}">
+          <view class="mobile" style="background-image:url('{{item.images}}')">
+              <view class="mobile_child">
+                    <text class="mobile_title">{{item.title}}</text>
+                    <text class="mobile_text">{{item.text}}</text>
+              </view>
+          </view>
+        </block> 
+      </view>
+  </view>
+
+
+
+</view>

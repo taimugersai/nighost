@@ -6,18 +6,25 @@
     "pages/contact/contact"
   ],
   "window": {
-    "navigationBarTitleText": "Demo"
+    "navigationBarTitleText": "夜行侠"
   },
   "tabBar": {
+    "selectedColor":"#09bb07",
     "list": [{
       "pagePath": "pages/index/index",
+      "iconPath":"../images/index.png",
+      "selectedIconPath":"../images/indexclick.png",
       "text": "服务"
     }, {
       "pagePath": "pages/case/case",
+      "iconPath":"../images/case.png",
+      "selectedIconPath":"../images/caseclick.png",
       "text": "案例"
     },
     {
       "pagePath": "pages/contact/contact",
+      "iconPath":"../images/contact.png",
+      "selectedIconPath":"../images/contactclick.png",
       "text": "联系我们"
     }
     ]

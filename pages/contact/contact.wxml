@@ -1,0 +1,13 @@
+<view class="body">
+<!--地图组件-->
+    <map longitude="31.488860" latitude="120.374500" markers="{{markers}}" covers="{{covers}}" style="width: 750rpx; height: 550rpx;"></map>
+<!-- 联系信息-->
+    <view class="info">
+    <view class="empty"></view>
+        <view wx:for="{{details}}" class="eachrow">
+            <image src="{{item.imgurl}}" class="img"></image>   
+            <view class="title">{{item.title}}</view>  
+            <view class="information">{{item.information}}</view>      
+        </view>
+    </view>
+</view>

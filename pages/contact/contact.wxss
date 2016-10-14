@@ -1,0 +1,40 @@
+.body{
+    height: 100%;
+}
+.info{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    font-family: "MicrosoftYaHei";
+    background-size: cover;
+    background:url(../../../images/background.png) center;
+}
+.empty{
+    height:50rpx;
+}
+.eachrow{
+    flex-grow: 1;
+    height: 110rpx;
+
+}
+.img{
+    width: 50rpx;
+    height:50rpx; 
+    display: inline-block;
+}
+.img,.title{
+    float: left;
+    margin-left: 27rpx;
+    margin-top: 25rpx;
+    font-weight: bold;
+}
+.title{
+    margin-top: 28rpx;
+}
+.information{
+    width: 450rpx;
+    float: right;
+    font-size: 11rpx;
+    color: #888888;
+    margin-top: 35rpx;
+}

@@ -1,0 +1,35 @@
+.cd_top{
+    width: 100%;
+    color: lightseagreen;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px lightblue;
+    text-align:center;
+    
+}
+.conternt{
+   width: 375rpx;
+   float: left;
+   margin-top: 10rpx;
+   text-align: center;
+   box-shadow: 5px 5px 5px gainsboro;
+   position: relative;
+}
+
+.userinfo-avatar{
+    width: 345rpx;
+}
+.userinfo-nickname{
+    width: 365rpx;
+    height: 40rpx;
+    font-family: "微软雅黑";
+    color: grey;
+}
+.leftfirst{
+   
+    left: -375rpx;
+}
+.rightfirst{
+    
+    right: -375rpx;
+}

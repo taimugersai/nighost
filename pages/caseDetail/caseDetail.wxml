@@ -1,0 +1,8 @@
+<view class="cd_box">
+    <view class="cd_top">H5案列</view>
+    <view wx:for="{{items}}" class="conternt {{index % 2 == 0 ? left : right}}" 
+    animation="{{index % 2 == 0 ? animateji : animateou}}">
+        <image class="userinfo-avatar" src="{{item.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{item.nickName}}</text>
+    </view>
+</view>
